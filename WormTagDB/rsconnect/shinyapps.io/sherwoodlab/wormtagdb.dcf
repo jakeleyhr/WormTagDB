@@ -1,0 +1,10 @@
+name: wormtagdb
+title: WormTagDB
+username: sherwoodlab
+account: sherwoodlab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15102336
+bundleId: 11229499
+url: https://sherwoodlab.shinyapps.io/wormtagdb/
+version: 1
