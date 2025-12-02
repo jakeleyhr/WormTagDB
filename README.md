@@ -2,7 +2,7 @@
 
 A comprehensive database and interactive RShiny application for exploring endogenously tagged proteins in *C. elegans*.
 
-WormTagDB provides a searchable, user-friendly interface to access information about protein tagging experiments, including exsiting tagged alleles, guide sequences, and primer designs for the entire of *C. elegans* genome.
+WormTagDB provides a user-friendly and searchable interface to access information about protein tagging experiments, including exsiting tagged alleles, guide sequences, and primer designs for the entire *C. elegans* genome.
 
 Visit the live application at: **https://wormtagdb.rc.duke.edu**
 
@@ -21,7 +21,8 @@ WormTagDB/
 
 The CRISPR guide and primer designs were generated using a computational pipeline:
 - **Pipeline Repository**: [CRISPR Guide and Primer Design Pipeline for C. elegans](https://github.com/jakeleyhr/CRISPR-Guide-and-Primer-Design-Pipeline-for-C.-elegans)
-- **Manuscript**: Leyhr, J. et al. (2025) WormTagDB: Systematic Survey of Endogenously Tagged Proteins in C. elegans and a Roadmap Towards the Tagged Proteome. *Submitted*.
+The pipeline and WormTagDB are described in this manuscript:
+- **Manuscript**: Leyhr, J. et al. (2025) WormTagDB: A Systematic Survey of Endogenously Tagged Proteins in C. elegans and Roadmap Towards the Tagged Proteome. *Submitted*.
 
 ## Installation & Usage
 
