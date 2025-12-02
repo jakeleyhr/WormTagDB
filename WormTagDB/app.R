@@ -367,7 +367,7 @@ Shiny.addCustomMessageHandler('init-igv', function(message) {
   /* Size the bar/logo */
   :root { --bar-h: 72px; }
   .navbar { min-height: var(--bar-h); padding-top:0; padding-bottom:0; margin-bottom:4px; }
-  .navbar-brand { height: var(--bar-h); display:flex; align-items:stretch; gap:6px; }
+  .navbar-brand { height: var(--bar-h); display:flex; align-items:center; gap:6px; }        # set align-items to stretch to fill logo to bar
   .navbar-brand img { height:100%; width:auto; display:block; }
 
   /* Right-justified orange items */
