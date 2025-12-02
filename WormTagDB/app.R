@@ -202,7 +202,7 @@ send_email <- function(to, subject, html_body, from = "wormtagdb@gmail.com") {
 
 ##### Load Data and Filter #####
 # Add the logo and plots filepath
-shiny::addResourcePath("logo", normalizePath("logo"))
+# shiny::addResourcePath("logo", normalizePath("logo"))
 shiny::addResourcePath("summary_plots", normalizePath("summary_plots"))
 message("Deployed images: ", paste(list.files("summary_plots"), collapse=", "))
 
